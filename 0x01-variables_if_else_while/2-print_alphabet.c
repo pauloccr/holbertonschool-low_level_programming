@@ -8,8 +8,8 @@ int main(void)
 	for (x = 'A'; x <= 'Z'; x++)
 	{
 		int lower_x = tolower(x);
-		putchar(lower_x);
+		putchar (lower_x);
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
